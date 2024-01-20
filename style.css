@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 600px;
+}
+
+.carousel{
+    height: 530px;
+    width: 500px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.image-container{
+    display: flex;
+    transform: translateX(0);
+    transition: trasnsform 0.5s ease-in-out;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+        background-color: blueviolet;
+        color: #fff;
+        border: none;
+        padding: 0.5rem;
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.expirement{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+}
